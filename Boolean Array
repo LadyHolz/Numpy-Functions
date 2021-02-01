@@ -1,0 +1,10 @@
+import numpy as np
+#Nme varible, arange and reshape accordingly 
+bool_arr = np.arange(2, 11).reshape(3, 3)
+tru_value = (bool_arr > 0)
+
+print(tru_value)
+
+[[ True  True  True]
+ [ True  True  True]
+ [ True  True  True]]
